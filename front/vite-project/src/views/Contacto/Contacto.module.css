@@ -1,0 +1,93 @@
+.sectionContacto {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.543),
+      rgba(255, 255, 255, 0.51)
+    ),
+    url("https://img.freepik.com/vector-gratis/vector-plantilla-marco-curva-azul-ceruleo_53876-136094.jpg?t=st=1710529223~exp=1710532823~hmac=8dd0ef433512e16e087754b2013af2a2dea6f11dc5f5a91b0fc626ce24009b49&w=740");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.containerGeneralContacto {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.boxContainer1 {
+  width: 50%;
+  /* background-color: aquamarine; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxContainer1 img {
+  width: 90%;
+  height: 80%;
+  border-radius: 50px;
+  box-shadow: 15px 15px rgba(151, 167, 215, 0.475);
+}
+
+.boxContainer2 {
+  width: 50%;
+}
+.boxSucursal {
+  width: 100%;
+  border-bottom: 5px solid rgb(137, 157, 217);
+}
+.titleContac {
+  font-size: 30px;
+  margin-top: 20px 0;
+  color: royalblue;
+  text-align: start;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.subtitleContac {
+  font-size: 18px;
+  margin-top: 0;
+  color: rgb(137, 157, 217);
+  text-transform: uppercase;
+  text-shadow: 0 0 5px white;
+}
+.boxContainer2 p {
+  font-size: 16px;
+  color: rgb(108, 106, 106);
+}
+@media all and (min-width: 768px) and (max-width: 1300px) {
+  .containerGeneralContacto {
+    width: 90%;
+    height: 100vh;
+  }
+  .boxContainer1 {
+    width: 50%;
+  }
+
+  .boxContainer1 img {
+    width: 90%;
+    height: 80%;
+  }
+
+  .boxContainer2 {
+    width: 50%;
+  }
+  .boxSucursal {
+    width: 100%;
+    border-bottom: 5px solid rgb(137, 157, 217);
+  }
+  .titleContac {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  .subtitleContac {
+    font-size: 16px;
+  }
+  .boxContainer2 p {
+    font-size: 16px;
+  }
+}

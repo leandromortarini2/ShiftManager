@@ -1,0 +1,126 @@
+.containerGeneralTurns {
+  width: 100%;
+
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.719),
+      rgba(255, 255, 255, 0.659)
+    ),
+    url("https://img.freepik.com/vector-gratis/vector-plantilla-marco-curva-azul-ceruleo_53876-136094.jpg?t=st=1710529223~exp=1710532823~hmac=8dd0ef433512e16e087754b2013af2a2dea6f11dc5f5a91b0fc626ce24009b49&w=740");
+  background-size: cover;
+}
+.containerTurns {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxCardsTurns {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.boxTitles {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  /* background-color: brown; */
+}
+.BoxParrafoTurns {
+  /* background-color: black; */
+  width: 1200px;
+  text-align: center;
+}
+.ParrafoTurns {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: rgb(121, 141, 201);
+  font-size: 20px;
+}
+.animatedTitleTurns {
+  font-size: 40px !important;
+  color: rgb(128, 149, 211);
+  text-shadow: 2px 2px 5px white;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+  letter-spacing: 3px;
+  opacity: 0; /* Título inicialmente invisible */
+  animation: fade-in 1.5s ease forwards; /* Aplicación de la animación */
+}
+.ParrafoAviso {
+  color: rgb(179, 135, 53);
+  font-size: 20px;
+  text-align: center;
+  margin: 50px auto;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0; /* Inicio: invisible */
+  }
+  to {
+    opacity: 1; /* Fin: completamente visible */
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1300px) {
+  .containerTurns {
+    width: 99%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxCardsTurns {
+    width: 100%;
+  }
+  .boxTitles {
+    width: 99%;
+    height: 200px;
+  }
+  .BoxParrafoTurns {
+    /* background-color: black; */
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ParrafoTurns {
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgb(121, 141, 201);
+    font-size: 17px;
+  }
+  .animatedTitleTurns {
+    font-size: 25px !important;
+    position: relative;
+    top: 0px;
+    letter-spacing: 3px;
+    opacity: 0; /* Título inicialmente invisible */
+    animation: fade-in 1.5s ease forwards; /* Aplicación de la animación */
+  }
+  .ParrafoAviso {
+    color: rgb(179, 135, 53);
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0; /* Inicio: invisible */
+    }
+    to {
+      opacity: 1; /* Fin: completamente visible */
+    }
+  }
+}

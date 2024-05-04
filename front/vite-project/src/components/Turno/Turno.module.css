@@ -1,0 +1,156 @@
+.card {
+  box-sizing: border-box;
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+  background: white;
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: start;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: royalblue;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(76, 65, 234, 0.416);
+}
+.BoxImgCard {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.BoxImgCard img {
+  width: 150px;
+  height: 80px;
+}
+.BoxTextCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h4 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.746);
+  color: royalblue;
+
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.primaryButton {
+  font-family: "Ropa Sans", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 1px solid royalblue;
+  padding: 0.8rem 2.1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-color: royalblue;
+  background-size: 200%;
+  background-position: 200%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  transition-property: background-position, border, color;
+  z-index: 1;
+}
+
+.primaryButton:hover {
+  color: white;
+  background-position: 40%;
+}
+.primaryButton:disabled {
+  background-color: gray !important;
+  background-image: none;
+  cursor: initial;
+}
+.primaryButton:before {
+  content: "";
+  position: absolute;
+  background-color: rgb(8, 128, 152);
+  width: 0.2rem;
+  height: 0.2rem;
+  top: -1px;
+  left: -1px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.buttonBorders {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.buttonBorders:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  top: -0.3em;
+  border: 1px solid rgb(8, 128, 152);
+  border-bottom: 0px;
+  /* opacity: 0.3; */
+}
+
+.buttonBorders:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  bottom: -0.3em;
+  border: 1px solid rgb(8, 128, 152);
+  border-top: 0px;
+  /* opacity: 0.3; */
+  z-index: 0;
+}
+@media all and (min-width: 768px) and (max-width: 1300px) {
+  .card {
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 7px 7px rgba(142, 160, 214, 0.406);
+  }
+  .BoxImgCard {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .BoxImgCard img {
+    width: 100px;
+    height: 60px;
+  }
+
+  h4 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+  }
+
+  .primaryButton {
+    text-transform: capitalize;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+}

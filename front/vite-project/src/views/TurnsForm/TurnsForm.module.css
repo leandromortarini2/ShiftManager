@@ -1,0 +1,184 @@
+.containerGeneralFormTurns {
+  width: 100%;
+  height: 90vh;
+  margin: 0;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.543),
+      rgba(255, 255, 255, 0.51)
+    ),
+    url("https://img.freepik.com/vector-gratis/vector-plantilla-marco-curva-azul-ceruleo_53876-136094.jpg?t=st=1710529223~exp=1710532823~hmac=8dd0ef433512e16e087754b2013af2a2dea6f11dc5f5a91b0fc626ce24009b49&w=740");
+  background-size: cover;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.container1 {
+  width: 1200px;
+  height: 600px;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 10px 10px rgba(143, 162, 218, 0.396);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container2 {
+  display: flex;
+  width: 1200px;
+  height: 600px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.BoxImgTurns {
+  width: 50%;
+  height: 600px;
+}
+.BoxImgTurns img {
+  width: 100%;
+  height: 600px;
+}
+.formTurns {
+  width: 50%;
+  height: 600px;
+  /* background-color: rgb(154, 168, 212); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+.BoxTitleFormTurns {
+  width: 100%;
+  height: 50px;
+}
+.titleFromTurns {
+  color: rgb(118, 144, 221);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.labelFormTurns {
+  color: royalblue;
+  font-size: 18px;
+}
+.inputFormTurns {
+  width: 250px;
+  height: 40px;
+  color: royalblue;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid rgb(139, 157, 211);
+}
+.buttonFormTurns {
+  width: 250px;
+  height: 40px;
+  background-color: royalblue;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  text-align: center;
+}
+.buttonFormTurns:hover {
+  background-color: rgb(21, 39, 96);
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+::placeholder {
+  padding: 20px;
+}
+.select {
+  width: 250px;
+  height: 40px;
+  color: royalblue;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid rgb(139, 157, 211);
+}
+
+@media all and (min-width: 768px) and (max-width: 1300px) {
+  .containerGeneralFormTurns {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.543),
+        rgba(255, 255, 255, 0.51)
+      ),
+      url("https://img.freepik.com/vector-gratis/vector-plantilla-marco-curva-azul-ceruleo_53876-136094.jpg?t=st=1710529223~exp=1710532823~hmac=8dd0ef433512e16e087754b2013af2a2dea6f11dc5f5a91b0fc626ce24009b49&w=740");
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .container1 {
+    width: 80%;
+    height: 500px;
+  }
+
+  .container2 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .BoxImgTurns {
+    width: 50%;
+    height: 500px;
+  }
+  .BoxImgTurns img {
+    width: 100%;
+    height: 600px;
+  }
+  .formTurns {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+  }
+  .BoxTitleFormTurns {
+    width: 100%;
+    height: 50px;
+  }
+  .titleFromTurns {
+    font-size: 20px;
+  }
+  .labelFormTurns {
+    color: royalblue;
+    font-size: 20px;
+  }
+
+  .buttonFormTurns:hover {
+    background-color: rgb(21, 39, 96);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+  }
+
+  .select {
+    width: 250px;
+    height: 40px;
+    color: royalblue;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid rgb(139, 157, 211);
+  }
+}

@@ -1,0 +1,222 @@
+.section1Home {
+  width: 100%;
+  background-image: url("https://gacetadental.com/wp-content/uploads/2022/07/Dentista-consulta.jpg");
+  background-size: cover;
+}
+.containerGeneralHome {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.containerHome {
+  max-width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: left;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 40px !important;
+  color: royalblue;
+  text-shadow: 2px 2px 5px white;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  text-align: start;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.boxParrafoHome {
+  width: 60%;
+  /* background-color: black; */
+}
+.ParrafoHome {
+  font-size: 25px;
+  text-align: justify;
+  line-height: 1.8;
+  color: rgb(129, 152, 220);
+  margin-bottom: 0px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px white;
+  animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.boxButtonHome {
+  width: auto;
+  height: auto;
+  margin: 20px 0;
+}
+.buttonHome {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: royalblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.buttonHome a {
+  text-decoration: none;
+  color: #fff;
+}
+.buttonHome:hover {
+  background-color: rgb(21, 43, 109);
+}
+
+@media all and (min-width: 768px) and (max-width: 1300px) {
+  .section1Home {
+    width: 100%;
+    background-image: url("https://gacetadental.com/wp-content/uploads/2022/07/Dentista-consulta.jpg");
+    background-size: cover;
+  }
+  .containerGeneralHome {
+    width: 99%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .containerHome {
+    max-width: 100%;
+    margin: 0px 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  h1 {
+    font-size: 20px !important;
+    color: royalblue;
+    text-shadow: 2px 2px 5px white;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    text-align: start;
+  }
+
+  .ParrafoHome {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    color: rgb(129, 152, 220);
+    margin-bottom: 0px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px white;
+    animation: fadeIn 1s ease forwards;
+  }
+  .boxButtonHome {
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+  }
+  .buttonHome {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .buttonHome a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .buttonHome:hover {
+    background-color: rgb(21, 43, 109);
+  }
+}
+@media all and (max-width: 599px) {
+  .section1Home {
+    width: 100%;
+    background-image: url("https://gacetadental.com/wp-content/uploads/2022/07/Dentista-consulta.jpg");
+    background-size: cover;
+  }
+  .containerGeneralHome {
+    width: 99%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .containerHome {
+    width: 99%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  h1 {
+    font-size: 20px !important;
+    color: royalblue;
+    text-shadow: 2px 2px 5px white;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    text-align: start;
+  }
+  .boxParrafoHome {
+    width: 99%;
+    margin: 0 auto;
+  }
+  .ParrafoHome {
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;
+    color: rgb(129, 152, 220);
+    margin-bottom: 0px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px white;
+    animation: fadeIn 1s ease forwards;
+  }
+  .boxButtonHome {
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+  }
+  .buttonHome {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .buttonHome a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .buttonHome:hover {
+    background-color: rgb(21, 43, 109);
+  }
+}
