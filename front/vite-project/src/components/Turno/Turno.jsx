@@ -10,7 +10,7 @@ const Turno = ({ time, date, description, status, id }) => {
   // Utiliza un objeto destructurado para los parámetros
   const Dispatch = useDispatch();
 
-  const CANCEL_URL = `http://localhost:3000/appointments/cancel/${id}`;
+  const CANCEL_URL = `https://5a85-186-127-224-4.ngrok-free.app/appointments/cancel/${id}`;
 
   const handlerClick = () => {
     axios.put(CANCEL_URL).then((reponse) => console.log("=====>", reponse));

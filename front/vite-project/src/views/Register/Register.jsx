@@ -5,7 +5,8 @@ import { useState } from "react";
 import validate from "../../helpers/validate";
 import { useNavigate } from "react-router-dom";
 
-const POSTREGISTER_URL = "http://localhost:3000/users/register";
+const POSTREGISTER_URL =
+  "https://5a85-186-127-224-4.ngrok-free.app/users/register";
 
 const Register = () => {
   // E S T A D O S

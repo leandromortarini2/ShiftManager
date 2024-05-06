@@ -10,7 +10,7 @@ const FormTurns = () => {
   const userId = useSelector((state) => state.actualUser.userData.user.id);
   console.log("========>", userId);
 
-  const POSTAPPOINTMENT_URL = `http://localhost:3000/appointments/schedule`;
+  const POSTAPPOINTMENT_URL = `https://5a85-186-127-224-4.ngrok-free.app/appointments/schedule`;
 
   console.log(POSTAPPOINTMENT_URL);
   const Dispatch = useDispatch();
